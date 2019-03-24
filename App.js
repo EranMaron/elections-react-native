@@ -48,15 +48,12 @@ const RootStack = createStackNavigator(
 
 const AppRoute = createAppContainer(RootStack);
 
-// type Props = {};
 export default class App extends Component {
 
   render() {
     return (
       <View style={styles.mainContainer}>
         <AppRoute />
-        {/* <Header />
-      <VotesScreen /> */}
       </View >
     );
   }
