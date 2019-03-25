@@ -37,14 +37,15 @@ const styles = StyleSheet.create({
   },
   range: {
     position: 'absolute',
-    width: 150,
-    height: 40,
-    right: 0,
-    fontSize: 35,
+    width: 100,
+    height: 50,
+    fontSize: 40,
     color: '#fff',
     textAlign: 'center',
     margin: 0,
-    padding: 0
+    padding: 0,
+    bottom: 5,
+    right: 5
   },
   cardTitle: {
     position: 'absolute',

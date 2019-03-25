@@ -1,4 +1,24 @@
 {
+  "checkSubmission": {
+    "ex": "1",
+    "students": [
+      {
+        "id": "037040458",
+        "fullName": "Eran Maron",
+        "email": "eran9maron@gmail.com"
+      },
+      {
+        "id": "305292179",
+        "fullName": "Omri Gil",
+        "email": "omrig2411@gmail.com"
+      }
+    ],
+    "os": "Windows",
+    "device": "Android",
+    "deliveryDate": "03/26/2019",
+    "delay": false,
+    "comments": "We have props validation issue on Header Component that we couldn't solve with propTypes"
+  },
   "name": "project_1",
   "version": "0.0.1",
   "private": true,
