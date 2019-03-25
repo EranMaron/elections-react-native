@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { StyleSheet, Text, View, ImageBackground, PropTypes } from 'react-native'
+import { StyleSheet, Text, View, ImageBackground } from 'react-native'
 import { withNavigation } from 'react-navigation'
 import Button from 'react-native-button'
 
@@ -70,6 +70,7 @@ class Header extends Component {
   }
 }
 
+//! This propTypes are undefined when we defined them
 // Header.propTypes = {
 //   goToScreen: PropTypes.string,
 //   navigation: PropTypes.func,

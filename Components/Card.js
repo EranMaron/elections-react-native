@@ -73,8 +73,8 @@ export default class Card extends Component {
   }
 
   voteSubmision() {
-    const partie = this.props.name
-    fetch(`https://isr-elections.herokuapp.com/api/parties/vote/${partie}`, {
+    const party = this.props.name
+    fetch(`https://isr-elections.herokuapp.com/api/parties/vote/${party}`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -96,7 +96,7 @@ export default class Card extends Component {
           onPress={this.handleOnPress}
         >
           <ImageBackground source={Images[imgName]} style={styles.imageBg}>
-            <Text style={styles.cardTitle}>{this.props.name}</Text>
+            <Text style={styles.cardTitle}>{_name}</Text>
           </ImageBackground>
         </TouchableHighlight>
       </View>

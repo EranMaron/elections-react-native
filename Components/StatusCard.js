@@ -37,9 +37,9 @@ const styles = StyleSheet.create({
   },
   range: {
     position: 'absolute',
-    width: 100,
+    width: 150,
     height: 40,
-    right: 30,
+    right: 0,
     fontSize: 35,
     color: '#fff',
     textAlign: 'center',
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     color: '#fff',
     fontSize: 25,
-    left: 120,
+    left: 105,
     bottom: 0,
     width: '60%'
   }
@@ -61,7 +61,7 @@ export default class StatusCard extends Component {
     const name = this.props.name
     const currentVotes = this.props.partyVotes
     const totalVotes = this.props.totalVotes
-    const precent = ((currentVotes / totalVotes) * 100).toFixed(2)
+    const precent = ((currentVotes / totalVotes) * 100).toFixed(0)
     const imgName = name.replace('-', '').replace('-', '')
     return (
       <View style={styles.card}>
