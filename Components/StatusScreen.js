@@ -38,7 +38,6 @@ export default class StatusScreen extends Component {
       totalVotes: 0,
       isLoaded: false
     }
-
     this.eachParty = this.eachParty.bind(this)
   }
 

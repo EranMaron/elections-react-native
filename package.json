@@ -17,7 +17,7 @@
     "device": "Android",
     "deliveryDate": "03/26/2019",
     "delay": false,
-    "comments": "We have props validation issue on Header Component that we couldn't solve with propTypes"
+    "comments": "We have problem run the app after downloading node_modules. We sent you an E-mail about this issue"
   },
   "name": "project_1",
   "version": "0.0.1",

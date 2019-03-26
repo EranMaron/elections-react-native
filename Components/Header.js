@@ -70,7 +70,7 @@ class Header extends Component {
   }
 }
 
-//! This propTypes are undefined when we defined them
+//! This propTypes are undefined when we used them
 // Header.propTypes = {
 //   goToScreen: PropTypes.string,
 //   navigation: PropTypes.func,

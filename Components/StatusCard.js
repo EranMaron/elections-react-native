@@ -62,13 +62,13 @@ export default class StatusCard extends Component {
     const name = this.props.name
     const currentVotes = this.props.partyVotes
     const totalVotes = this.props.totalVotes
-    const precent = ((currentVotes / totalVotes) * 100).toFixed(0)
+    const precents = ((currentVotes / totalVotes) * 100).toFixed(0)
     const imgName = name.replace('-', '').replace('-', '')
     return (
       <View style={styles.card}>
         <ImageBackground source={Images[imgName]} style={styles.imageBg} />
         <Text style={styles.cardTitle}>{this.props.name}</Text>
-        <Text style={styles.range}>{`${precent}%`}</Text>
+        <Text style={styles.range}>{`${precents}%`}</Text>
       </View>
     )
   }
